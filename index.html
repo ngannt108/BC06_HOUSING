@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Font-awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- Sweiper CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="./css/magnific-popup.css" />
+    <!-- Main css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font-family  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Housing</title>
+  </head>
+  <body>
+    <!----------- header  ------------->
+    <header>
+      <div id="logo">
+        <h1>
+          <a href="#">Hous<span>ing</span></a>
+        </h1>
+      </div>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#agents">Agents</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!------------ Slider  ------------>
+    <section id="slider">
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide slide__1">
+            <h1>LOREM IPSUM AMET</h1>
+            <p>Lorem ipsum dolor sit, consectetur adiping elit.</p>
+          </div>
+          <div class="swiper-slide slide__2">
+            <h1>DOLOR SIT HATANT MORBI</h1>
+            <p>Quis autem vel eum iure reprehenderit quivol.</p>
+          </div>
+          <div class="swiper-slide slide__3">
+            <h1>QUIS AUTEM VE EUM IURE</h1>
+            <p>Excepteur sint ocecat cupid proident, deserunt.</p>
+          </div>
+          <div class="swiper-slide slide__4">
+            <h1>VOLUPTATE VELIT ESSE</h1>
+            <p>Quis autem velreprehenderit qui ea.eum iure</p>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!------------ About  ------------->
+    <section id="about">
+      <div class="about__content">
+        <h1>About</h1>
+        <div class="about__list">
+          <div class="about__item">
+            <div class="icon"><i class="fas fa-home"></i></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="about__item">
+            <div class="icon"><i class="fas fa-key"></i></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="about__item">
+            <div class="icon"><i class="fas fa-money-bill-alt"></i></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="about__us">
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed
+            odio consequat, tristique elit sed, molestie nulla. Mauris et quam
+            leo. Quisque tincidunt facilisis rutrum. Etiam mattis arcu vitae
+            velit sagittis vehicula. Duis posuere ex in mollis iaculis.
+            Suspendisse tincidunt ut velit id euismod.vulputate turpis porta ex
+            sodales, dignissim hendrerit eros sagittis. Curabitur lacinia dui ut
+            luctus congue. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!---------------- Stats  ------------------->
+    <section id="stats">
+      <div class="stats__content">
+        <h1>Stats</h1>
+        <div class="stats__list">
+          <div class="stats__item">
+            <p class="counter">3500</p>
+            <h4>clients</h4>
+          </div>
+          <div class="stats__item">
+            <p class="counter">650</p>
+            <h4>plans</h4>
+          </div>
+          <div class="stats__item">
+            <p class="counter">1021</p>
+            <h4>projects</h4>
+          </div>
+          <div class="stats__item">
+            <p class="counter">1010</p>
+            <h4>likes</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------- Blog ------------>
+    <section id="blog">
+      <h1>Blog</h1>
+      <input type="checkbox" name="" id="blog__show" />
+      <div class="blog__list">
+        <div class="blog__item">
+          <img src="./images/g1.jpg" alt="" />
+          <div class="item__text">
+            <h2><a href="#">Lorem Ipsum Passage,</a></h2>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium
+            </p>
+            <label for="blog__show">Read more..</label>
+          </div>
+        </div>
+        <div class="blog__item">
+          <img src="./images/g2.jpg" alt="" />
+          <div class="item__text">
+            <h2><a href="#">Lorem Ipsum Passage,</a></h2>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium
+            </p>
+            <label for="blog__show">Read more..</label>
+          </div>
+        </div>
+        <div class="blog__item">
+          <img src="./images/g1.jpg" alt="" />
+          <div class="item__text">
+            <h2><a href="#">Lorem Ipsum Passage,</a></h2>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium
+            </p>
+            <label for="blog__show">Read more..</label>
+          </div>
+        </div>
+      </div>
+      <div class="blog__popup">
+        <div class="blog__content">
+          <h2>Housing</h2>
+          <img src="./images/img2.jpg" alt="" />
+          <p>
+            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+            suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+            autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+            nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+            voluptas nulla pariatur.
+          </p>
+          <label for="blog__show"
+            ><img src="./images/close.png" alt=""
+          /></label>
+        </div>
+      </div>
+    </section>
+
+    <!------------------- Video --------------->
+    <section id="video">
+      <input type="checkbox" name="" id="show" />
+      <div class="video__content">
+        <div class="video__play">
+          <a
+            class="image-link fas fa-play-circle"
+            href="https://vimeo.com/106770833"
+          ></a>
+        </div>
+        <div class="video__info">
+          <h2>Get More..</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut minim veniam, labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi esse quam nihil molestiae consequatur, vel illum qui
+            dolorem eum fugiat quo voluptas nulla pariatur.
+          </p>
+          <label for="blog__show">Read more..</label>
+        </div>
+      </div>
+    </section>
+
+    <!------------ Portfolio ---------------->
+    <section id="portfolio">
+      <h1>Portfolio</h1>
+      <div class="por__content">
+        <div class="por__item">
+          <a href="./images/img1.jpg" class="gallery-item">
+            <img src="./images/img1.jpg" alt="" />
+            <div class="por__info">
+              <h3>gallery</h3>
+              <p>Lorem Ipsum is simply dummy</p>
+            </div>
+          </a>
+        </div>
+        <div class="por__item">
+          <a href="./images/img2.jpg" class="gallery-item">
+            <img src="./images/img2.jpg" alt="" />
+            <div class="por__info">
+              <h3>gallery</h3>
+              <p>Lorem Ipsum is simply dummy</p>
+            </div>
+          </a>
+        </div>
+        <div class="por__item">
+          <a href="./images/img3.jpg" class="gallery-item">
+            <img src="./images/img3.jpg" alt="" />
+            <div class="por__info">
+              <h3>gallery</h3>
+              <p>Lorem Ipsum is simply dummy</p>
+            </div>
+          </a>
+        </div>
+        <div class="por__item">
+          <a href="./images/img4.jpg" class="gallery-item">
+            <img src="./images/img4.jpg" alt="" />
+            <div class="por__info">
+              <h3>gallery</h3>
+              <p>Lorem Ipsum is simply dummy</p>
+            </div>
+          </a>
+        </div>
+        <div class="por__item">
+          <a href="./images/img5.jpg" class="gallery-item">
+            <img src="./images/img5.jpg" alt="" />
+            <div class="por__info">
+              <h3>gallery</h3>
+              <p>Lorem Ipsum is simply dummy</p>
+            </div>
+          </a>
+        </div>
+        <div class="por__item">
+          <a href="./images/img6.jpg" class="gallery-item">
+            <img src="./images/img6.jpg" alt="" />
+            <div class="por__info">
+              <h3>gallery</h3>
+              <p>Lorem Ipsum is simply dummy</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!------------------ Subcribe ------------------->
+    <section id="subcribe">
+      <div class="sub__content">
+        <div class="sub__text">
+          <h1>Subcribe</h1>
+          <p>
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+            pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi
+          </p>
+        </div>
+        <div class="sub__form">
+          <div><input type="email" placeholder="Email" required /></div>
+          <div><button>Click</button></div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------- Agents  --------------->
+    <section id="agents">
+      <div class="agents__content">
+        <h1>Our Agents</h1>
+        <div class="agents__list">
+          <div class="agent__info">
+            <img src="./images/t1.jpg" alt="" />
+            <div class="detail">
+              <h4>KAT WALLY</h4>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li class="facebook">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="twitter">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="rss">
+                  <a href="#"><i class="fas fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="agent__info">
+            <img src="./images/t2.jpg" alt="" />
+            <div class="detail">
+              <h4>JOHN MAX</h4>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li class="facebook">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="twitter">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="rss">
+                  <a href="#"><i class="fas fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="agent__info">
+            <img src="./images/t3.jpg" alt="" />
+            <div class="detail">
+              <h4>ROY KENT</h4>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li class="facebook">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="twitter">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="rss">
+                  <a href="#"><i class="fas fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="agent__info">
+            <img src="./images/t4.jpg" alt="" />
+            <div class="detail">
+              <h4>JOY IDSON</h4>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li class="facebook">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="twitter">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="rss">
+                  <a href="#"><i class="fas fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------- Map  ------------>
+    <section id="google__map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3745.657945920633!2d94.925709!3d20.148312999999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30b7d19881308ae9%3A0x229dbaae31b864b9!2sZarmani!5e0!3m2!1sen!2sin!4v1419654909172"
+      ></iframe>
+    </section>
+
+    <!-------------- Contacts ------------->
+    <section id="contacts">
+      <h1>Contact Us</h1>
+      <div class="contact__form">
+        <div class="form__left">
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="email" placeholder="Email" />
+          <input type="phone" placeholder="Phone" />
+        </div>
+        <div class="form__right">
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" value="Submit" />
+        </div>
+      </div>
+    </section>
+
+    <!-------------- Footer  -------------->
+    <footer>
+      <div class="credit">
+        <p>
+          © 2017 Housing. All Rights Reserved | Design by
+          <a href="#" target="_blank">W3layouts</a>
+        </p>
+      </div>
+      <div class="footer__list">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-rss"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-vk"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!------ Go to top button  ------->
+    <div id="go__top">
+      <a href="#"><img src="./images/arrowup.png" alt="" /></a>
+    </div>
+
+    <!-- Swiper script  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Count Up js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/jquery.countup.min.js"></script>
+
+    <!-- Magnific Popup core JS file -->
+    <script src="./js/jquery.magnific-popup.js"></script>
+
+    <!-- Script  -->
+    <script>
+      var mySwiper = new Swiper('.swiper-container', {
+        // Optional parameters,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
+
+      $('.counter').countUp();
+
+      $(document).ready(function () {
+        $('.image-link').magnificPopup({
+          type: 'iframe',
+          iframe: {
+            markup:
+              '<div class="mfp-iframe-scaler">' +
+              '<div class="mfp-close"></div>' +
+              '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+              '</div>',
+
+            patterns: {
+              vimeo: {
+                index: 'vimeo.com/',
+                id: '/',
+                src: '//player.vimeo.com/video/%id%?autoplay=1',
+              },
+              gmaps: {
+                index: '//maps.google.',
+                src: '%id%&output=embed',
+              },
+            },
+
+            srcAction: 'iframe_src',
+          },
+        });
+
+        $('.gallery-item').magnificPopup({
+          type: 'image',
+          gallery: {
+            enabled: true,
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
